@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Ubuntu:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fcf4ee;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 5.5rem;
+  /* -webkit-text-stroke: 0.05rem #fcf4ee; */
+  background: -webkit-linear-gradient(
+    89.8deg,
+    rgba(204, 156, 223, 1) 0.3%,
+    rgba(155, 219, 245, 1) 20.4%,
+    rgba(245, 183, 208, 1) 40.2%,
+    rgba(250, 186, 98, 1) 62.9%,
+    rgba(234, 238, 240, 1) 81.9%,
+    rgba(250, 245, 171, 1) 99.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 900;
+}
+.content {
+  text-align: center;
+  margin-top: 7.5rem;
+}
+.content .button {
+  font-weight: 700;
+  font-size: 3.15rem;
+  margin-bottom: 5rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+}
+.content span {
+  font-family: "Ubuntu", sans-serif;
+
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  font-size: 5rem;
+  background: linear-gradient(219deg, #e5e84f, #dd7834, #52ec39);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 81% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 81% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 81% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 81% 0%;
+  }
+}
+#copyButton {
+  margin-top: 5rem;
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(13, 14, 14);
+  width: 100%;
+  height: 3rem;
+}
+footer p {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #fcf4ee;
+  font-size: 100%;
+}
+/* responsive */
+@media (max-width: 64rem) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  .content .btn {
+    font-size: 2rem;
+  }
+  .content span {
+    font-size: 4.25rem;
+  }
+}
+@media (max-width: 75rem) {
+  h1 {
+    font-size: 4rem;
+  }
+  .content .btn {
+    font-size: 2rem;
+  }
+  .content span {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 46.875rem) {
+  h1 {
+    font-size: 3.75rem;
+  }
+  .content .btn {
+    font-size: 1.75rem;
+  }
+  .content span {
+    font-size: 2.75rem;
+  }
+  #copyButton {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 43.75rem) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .content .btn {
+    font-size: 1.7rem;
+  }
+  .content span {
+    font-size: 2.35rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 38.75rem) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 36.875rem) {
+  h1 {
+    font-size: 3rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 34.375rem) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 28.75rem) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  .content .btn {
+    font-size: 1.25rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 26.25rem) {
+  h1 {
+    font-size: 2.1rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 24.6875rem) {
+  h1 {
+    font-size: 2rem;
+  }
+  .content .btn {
+    font-size: 1.5rem;
+  }
+  .content span {
+    font-size: 2.5rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 23.125rem) {
+  h1 {
+    font-size: 1.85rem;
+  }
+  .content .btn {
+    font-size: 1.1rem;
+  }
+  .content span {
+    font-size: 2rem;
+  }
+  #copyButton {
+    font-size: 1.25rem;
+  }
+}
