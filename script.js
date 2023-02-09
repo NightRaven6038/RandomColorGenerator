@@ -16,6 +16,7 @@ function generate() {
   document.querySelector(".result").textContent = code;
   document.body.style.backgroundColor = code;
   // document.querySelector(".btn").style.color = code;
+  document.querySelector(".result").classList.add("deco");
   document.querySelector(".result").style.color = code;
   return code;
 }
