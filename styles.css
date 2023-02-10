@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: auto;
+  height: max-content;
 }
 
 h1 {
@@ -24,23 +24,22 @@ h1 {
 
   font-weight: 900;
 }
-#container {
-  height: fit-content;
-}
-.content {
+
+main {
   text-align: center;
   margin-top: 7.5rem;
+  margin-bottom: 7rem;
 }
-.content .button {
+main .button {
   font-weight: 700;
   font-size: 3.15rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
   padding: 1rem 2.5rem 1rem 2.5rem;
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   border: none;
 }
 
-.content span {
+main span {
   font-family: "Ubuntu", sans-serif;
 
   padding: 1rem 2.5rem 1rem 2.5rem;
@@ -92,7 +91,7 @@ footer {
   bottom: 0;
   position: fixed;
   text-align: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   width: 100%;
   height: 2.5rem;
 }
@@ -107,10 +106,10 @@ footer p {
   h1 {
     font-size: 4.5rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 2rem;
   }
-  .content span {
+  main span {
     font-size: 4.25rem;
   }
 }
@@ -118,10 +117,10 @@ footer p {
   h1 {
     font-size: 4rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 2rem;
   }
-  .content span {
+  main span {
     font-size: 4rem;
   }
 }
@@ -129,10 +128,10 @@ footer p {
   h1 {
     font-size: 3.75rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.75rem;
   }
-  .content span {
+  main span {
     font-size: 2.75rem;
   }
   #copyButton {
@@ -143,10 +142,10 @@ footer p {
   h1 {
     font-size: 3.5rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.7rem;
   }
-  .content span {
+  main span {
     font-size: 2.35rem;
   }
   #copyButton {
@@ -158,10 +157,10 @@ footer p {
   h1 {
     font-size: 3.2rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -173,10 +172,10 @@ footer p {
   h1 {
     font-size: 3rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -188,10 +187,10 @@ footer p {
   h1 {
     font-size: 2.7rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -203,10 +202,10 @@ footer p {
   h1 {
     font-size: 2.5rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -217,10 +216,10 @@ footer p {
   h1 {
     font-size: 2.25rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.25rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -231,10 +230,10 @@ footer p {
   h1 {
     font-size: 2.1rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -245,10 +244,10 @@ footer p {
   h1 {
     font-size: 2rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.5rem;
   }
-  .content span {
+  main span {
     font-size: 2.5rem;
   }
   #copyButton {
@@ -260,10 +259,10 @@ footer p {
   h1 {
     font-size: 1.85rem;
   }
-  .content .btn {
+  main .btn {
     font-size: 1.1rem;
   }
-  .content span {
+  main span {
     font-size: 2rem;
   }
   #copyButton {
